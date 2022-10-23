@@ -215,7 +215,7 @@ text-decoration: none;
 /* Buttons */
 
 .button-list {
-        cursor: pointer;
+        list-style: none;;
 }
 
 .portfolio-buttons {
