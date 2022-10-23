@@ -12,7 +12,9 @@
 
 .body {
   font-family: 'Roboto', sans-serif;
-  
+  font-size: 14px;
+  background-color: var(--main-color);
+  color: var(--black-color);
 }
 
 .list {
@@ -47,7 +49,6 @@ text-decoration: none;
 
 .header-list-link {
                 font-weight: 500;
-                font-size: 14px;
                 line-height: calc(16/14);
                 letter-spacing: 0.02em;
                 color: var(--black-color);
@@ -61,7 +62,6 @@ text-decoration: none;
 
 .contacts-mail {
         font-weight: 500;
-        font-size: 14px;
         line-height: calc(16/12);
         letter-spacing: 0.02em;
         text-decoration: none;
@@ -70,7 +70,6 @@ text-decoration: none;
 
 .contacts-tel {
         font-weight: 500;
-        font-size: 14px;
         line-height: calc(16/12);
         letter-spacing: 0.02em;
         text-decoration: none;
@@ -113,7 +112,6 @@ text-decoration: none;
 
 .opportunities-title {
         font-weight: 700;
-        font-size: 14px;
         line-height: calc(16/14);
         letter-spacing: 0.03em;
         text-transform: uppercase;
@@ -123,7 +121,6 @@ text-decoration: none;
 
 .opportunities-text {
         font-weight: 400;
-        font-size: 14px;
         line-height: calc(24/14);
         letter-spacing: 0.03em;
 
@@ -186,7 +183,6 @@ text-decoration: none;
 
 .address {
                 font-weight: 400;
-                font-size: 14px;
                 line-height: calc(24/14);     
                 letter-spacing: 0.03em;
                 color: var(--main-color);
@@ -218,41 +214,44 @@ text-decoration: none;
 
 /* Buttons */
 
-.portfolio-button {
+.button-list {
         cursor: pointer;
 }
 
-.button-all {
-                font-family: inherit;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: calc(24/16);
-                text-align: center;
-                letter-spacing: 0.03em;
-                color: #FFFFFF;
-                background-color: var(--accend-color);
-}
-
-.button {
+.portfolio-buttons {
         font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: calc(24/16);
         text-align: center;
         letter-spacing: 0.03em;
-                                
+        cursor: pointer;
+}
+
+.button-all {
+        color: var(--main-color);
+        background-color: var(--accend-color);
+}
+
+.button {                        
         color: var(--black-color);
         background-color: var(--button-color);
 }
 
+
+
 /* Photos */
+
+.gallery-list {
+        list-style: none;
+}
 
 .galley-name {
                 font-weight: 700;
                 font-size: 18px;
                 line-height: calc(36/18);
                 letter-spacing: 0.06em;
-                color: var(--black-color);
+                
 }
 
 .gallery-describtion {
