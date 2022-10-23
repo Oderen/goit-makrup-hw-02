@@ -5,12 +5,14 @@
         --black-color: #212121;
         --gray-color: #757575;
         --darkgray-color: #2F303A;
+        --rgba-color:rgba(255, 255, 255, 0.6);
+        --button-color: #F5F4FA;
 }
 
 
 .body {
   font-family: 'Roboto', sans-serif;
-  color: #2F303A;
+  
 }
 
 .list {
@@ -78,7 +80,7 @@ text-decoration: none;
 /* Hero */
 
 .hero {
-      color:var(--darkgray-color);
+      background-color:var(--darkgray-color);
 }
 
 .title {
@@ -149,7 +151,7 @@ text-decoration: none;
                 text-align: center;
                 letter-spacing: 0.03em;
         
-                color: #212121;
+                color: var(--black-color);
 }
 
 .worker {
@@ -159,7 +161,7 @@ text-decoration: none;
                 text-align: center;
                 letter-spacing: 0.03em;
         
-                color: #212121;
+                color: var(--black-color);
 }
 
 .position {
@@ -169,17 +171,17 @@ text-decoration: none;
                 text-align: center;
                 letter-spacing: 0.03em;
         
-                color: #757575;
+                color: var(--gray-color);
 }
 
 /* Footer */
 
 .footer {
-        background-color: #2F303A;
+        background-color: var(--darkgray-color);
 }
 
 .logo-studio2 {
-        color: #FFFFFF;
+        color: var(--main-color);
 }
 
 .address {
@@ -187,15 +189,15 @@ text-decoration: none;
                 font-size: 14px;
                 line-height: calc(24/14);     
                 letter-spacing: 0.03em;
-                color: #FFFFFF;
+                color: var(--main-color);
 }
 
 .footer-mail {       
         
-        color: rgba(255, 255, 255, 0.6);}
+        color: var(--rgba-color)}
 
 .footer-tel {
-        color: rgba(255, 255, 255, 0.6);
+        color: var(--rgba-color);
 }
 
         
@@ -203,11 +205,11 @@ text-decoration: none;
 /* All interactive elements */
 
 .interactive-element:hover {
-        color: #2196F3;
+        color: var(--accend-color);
 }
 
 .interactive-element:focus {
-        color: #2196F3;
+        color: var(--accend-color);
 }
 
 
@@ -228,7 +230,7 @@ text-decoration: none;
                 text-align: center;
                 letter-spacing: 0.03em;
                 color: #FFFFFF;
-                background-color: #2196F3;
+                background-color: var(--accend-color);
 }
 
 .button {
@@ -239,8 +241,8 @@ text-decoration: none;
         text-align: center;
         letter-spacing: 0.03em;
                                 
-        color: #212121;
-        background-color: #F5F4FA;
+        color: var(--black-color);
+        background-color: var(--button-color);
 }
 
 /* Photos */
@@ -250,7 +252,7 @@ text-decoration: none;
                 font-size: 18px;
                 line-height: calc(36/18);
                 letter-spacing: 0.06em;
-                color: #212121;
+                color: var(--black-color);
 }
 
 .gallery-describtion {
@@ -259,5 +261,5 @@ text-decoration: none;
                 line-height: 30px;
                 letter-spacing: 0.03em;
         
-                color: #757575;
+                color: var(--gray-color);
 }
