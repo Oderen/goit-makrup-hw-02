@@ -1,4 +1,12 @@
 
+:root {
+        --main-color: #FFFFFF;
+        --accend-color: #2196F3;
+        --black-color: #212121;
+        --gray-color: #757575;
+        --darkgray-color: #2F303A;
+}
+
 
 .body {
   font-family: 'Roboto', sans-serif;
@@ -22,11 +30,11 @@ text-decoration: none;
 }
 
 .logo-web {
-        color: #2196F3;
+        color: var(--accend-color);
 }
 
 .logo-studio {
-        color: #000000;
+        color: var(--black-color);
 }
 
 /* Header Navigation List */
@@ -40,11 +48,11 @@ text-decoration: none;
                 font-size: 14px;
                 line-height: calc(16/14);
                 letter-spacing: 0.02em;
-                color: #212121;
+                color: var(--black-color);
 }
 
 .header-active-link {
-        color: #2196F3;
+        color: var(--accend-color);
 }
 
 /* Contacts */
@@ -55,8 +63,7 @@ text-decoration: none;
         line-height: calc(16/12);
         letter-spacing: 0.02em;
         text-decoration: none;
-    
-        color: #2196F3;
+        color:var(--accend-color);
 }
 
 .contacts-tel {
@@ -66,13 +73,12 @@ text-decoration: none;
         letter-spacing: 0.02em;
         text-decoration: none;
     
-        color: #757575;
-}
+        color:var(--gray-color);}
 
 /* Hero */
 
 .hero {
-      background-color: #2F303A;
+      color:var(--darkgray-color);
 }
 
 .title {
@@ -83,7 +89,7 @@ text-decoration: none;
         letter-spacing: 0.06em;
         text-transform: uppercase;
 
-        color: #FFFFFF;
+        color:var(--main-color);
 }
 
 .title-button {
@@ -97,8 +103,8 @@ text-decoration: none;
                 font-family: inherit;
                 cursor: pointer;
         
-                color: #FFFFFF;
-                background-color: #2196F3;
+                color:var(--main-color);
+                background-color:var(--accend-color);
 }
 
 /* Opportunities */
@@ -110,7 +116,7 @@ text-decoration: none;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 
-        color: #212121;
+        color:var(--black-color);
 }
 
 .opportunities-text {
@@ -119,7 +125,7 @@ text-decoration: none;
         line-height: calc(24/14);
         letter-spacing: 0.03em;
 
-        color: #757575;
+        color:var(--gray-color);
 }
 
 /* What do we do? */
@@ -131,7 +137,7 @@ text-decoration: none;
                 text-align: center;
                 letter-spacing: 0.03em;
         
-                color: #212121;
+                color:var(--black-color);
 }
 
 /* Team */
